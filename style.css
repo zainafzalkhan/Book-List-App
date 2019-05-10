@@ -1,0 +1,35 @@
+body{
+    background: #444;
+    color: #fff;
+    
+}
+.container{
+    border: 3px solid #e8493d ;
+    text-align: center;
+
+}
+table{
+    margin: 20px auto;
+    padding: 10px;
+}
+table th,td,tr{
+    padding: 20px;
+}
+td a{
+    text-decoration: none;
+    color: #fff;
+    background: red;
+    padding: 10px;
+}
+input{
+    margin: 10px;
+    height: 20px;
+    padding: 5px;
+}
+#submit{
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    background: #e71113;
+    border: 0;
+}
