@@ -15,6 +15,12 @@ table{
 table th,td,tr{
     padding: 20px;
 }
+tbody:not(#tdata) tr{
+    background-color: #222;
+}
+#tdata tr{
+    background-color: #333;
+}
 td a{
     text-decoration: none;
     color: #fff;
@@ -32,4 +38,5 @@ input{
     color: #fff;
     background: #e71113;
     border: 0;
+    cursor: pointer;
 }
